@@ -1,36 +1,35 @@
 import Head from "next/head";
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
-import styles from "../styles/Home.module.css";
-import Link from "next/link";
 
-const Home = () => {
+const About = () => {
   return (
     <>
       <Head>
-        <title>Ninja List | Home</title>
+        <title>Ninja List | About</title>
         <meta name="keywords" content="ninjas" />
       </Head>
       <div>
-        <h1 className={styles.title}>Home Page</h1>
-        <p className={styles.text}>
+        <h1>About Page</h1>
+        <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
           sit commodi temporibus voluptate quidem corporis, provident corrupti
           atque fugit ipsam velit aut at, expedita facilis accusantium libero
           culpa quibusdam debitis.
         </p>
-        <p className={styles.text}>
+        <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
           sit commodi temporibus voluptate quidem corporis, provident corrupti
           atque fugit ipsam velit aut at, expedita facilis accusantium libero
           culpa quibusdam debitis.
         </p>
-        <Link href="/ninjas">
-          <a className={styles.btn}>See Ninja Listing</a>
-        </Link>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          sit commodi temporibus voluptate quidem corporis, provident corrupti
+          atque fugit ipsam velit aut at, expedita facilis accusantium libero
+          culpa quibusdam debitis.
+        </p>
       </div>
     </>
   );
 };
 
-export default Home;
+export default About;
